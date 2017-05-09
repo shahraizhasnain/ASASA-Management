@@ -20,12 +20,19 @@ namespace ASASA_Fixed_Asset_Management
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/bootstrap.min.js",
+                      "~/Scripts/jquery.dcjqaccordion.2.7.min.js",
+                      "~/Scripts/jquery.scrollTo.min.js",
+                      "~/Scripts/jquery.nicescroll.jss",
+                      "~/Scripts/respond.js",
+                      "~/Scripts/common-scripts.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap.min.css",
+                      "~/Content/bootstrap-reset.css",
+                      "~/Content/font-awesome.min.css",
+                      "~/Content/style.css",
+                      "~/Content/style-responsive.css"));
         }
     }
 }
