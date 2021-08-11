@@ -4,7 +4,7 @@ var dbConfig = {
   user: "sa",
   password: "MyDe6147",
   server: "DESKTOP-94PNHV3\\SQLEXPRESS",
-  database: "AssetManagement",
+  database: "AssetManagement1",
 };
 
 const pool = new sql.ConnectionPool(dbConfig);
