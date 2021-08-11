@@ -2,9 +2,9 @@ const sql = require("mssql");
 
 var dbConfig = {
   user: "sa",
-  password: "MyDe6147",
-  server: "DESKTOP-94PNHV3\\SQLEXPRESS",
-  database: "AssetManagement",
+  password: "10pearls1+",
+  server: "LDEV-SHAHRAIZHA",
+  database: "ipts-bpp",
 };
 
 const pool = new sql.ConnectionPool(dbConfig);
