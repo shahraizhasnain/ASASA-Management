@@ -1,4 +1,3 @@
-const sql = require("mssql");
 
 var dbConfig = {
   user: "sa",
