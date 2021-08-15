@@ -9,6 +9,8 @@ var dbConfig = {
 const pool = new sql.ConnectionPool(dbConfig);
 const poolConnect = pool.connect();
 
+// Sprint 1
+// Sprint 1 - Feature 2 Done.
 // ================================== Sample ==================================
 
 // const params = [
